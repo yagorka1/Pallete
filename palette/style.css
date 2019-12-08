@@ -1,0 +1,182 @@
+main{
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 620px;
+    color:gray;
+    /* background-color: blue; */
+}
+
+header{
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 3px 5px 0px gray;
+    height: 18px;
+}
+
+h1{
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.palette{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 3px 5px 0px gray;
+    font-size: 14px;
+    /* background-color: yellow; */
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width:120px;
+    margin-left: -25px;
+    /* background-color: yellow; */
+}
+
+li{
+    display: flex;
+    list-style: none;
+    width:120px;
+    margin-bottom: 15px;
+    /* background-color: blue; */
+}
+
+a{
+    margin-right: 20px;
+}
+
+.icon:hover{
+    color:pink;
+}
+
+.cursor-exc{
+    cursor: url("./exchange-arrows.png"),pointer; 
+}
+
+.cursor-pal{
+    cursor: url("./palette.png"),pointer; 
+}
+
+.cursor-pipette{
+    cursor: url("./pipette.png"),pointer; 
+}
+
+.cursor-move{
+    cursor: move;
+}
+
+.line{
+    width: 180px;
+    height: 1px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.work_with_color{
+    margin-top: 20px;
+    /* background-color: green; */
+}
+
+.round{
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: green;
+    border:1px solid black;
+    margin-right: 20px;
+    margin-left: 4px;
+}
+
+.round_hover:hover{
+    border-radius: 10%;
+}
+
+#blue_round{
+    background-color: blue;
+}
+
+#red_round{
+    background-color: red;
+}
+
+.hotkeys{
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 12px;
+    margin-bottom: 7px;
+    color:gray;
+    margin-left: 25px;
+}
+
+.inLocalStorage, .fromLocalStorage{
+    font-size: 11px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 3px 5px 0px gray;
+    color:gray;
+    cursor: pointer;
+}
+
+.inLocalStorage:focus, .fromLocalStorage:focus{
+    outline: none;
+}
+.inLocalStorage:hover, .fromLocalStorage:hover{
+    color:red;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    align-content:space-between;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    margin-top: 30px;
+    /* position: relative; */
+}
+
+.block{
+    width: 180px;
+    height: 180px;
+    background-color:#cfcfcf;
+    border: 1px solid black;
+    /* margin-bottom: 10px; */
+}
+
+.opac{
+    opacity: 0.5;
+}
+
+.hid{
+    visibility: hidden;
+}
+
+.hover{
+    background-color: rebeccapurple;
+}
+
+.circ{
+    border-radius: 50%;
+}
+
+.highlight{
+    background-color: red;
+}
+
+.colorr{
+    background-color: blueviolet;
+}

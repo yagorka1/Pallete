@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CodeJam - Palette</h1>
+    </header>
+    <main>
+        <div class="menu">
+            <div class="palette work_with_figure">
+                <ul>
+                    <li><a class="icon"><i class="icon-palette"></i></a>Paint backet</li>
+                    <li><a class="icon"><i class="icon-eyedropper"></i></a>Choose color</li>
+                </ul>
+                <div class="line"></div>
+                <ul>
+                    <li><a class="icon"><i class="icon-move"></i></a>Move</li>
+                    <li><a class="icon"><i class="icon-exchange"></i></a>Transform</li>
+                </ul>
+            </div>
+            <div class="palette work_with_color">
+                <ul>
+                    <li><i class="round" id="current_round"></i>Current color</li>
+                    <li><i class="round" id="prev_round"></i>Prev color</li>
+                </ul>
+                <div class="line"></div>
+                <ul>
+                    <li><i class="round" id="red_round"></i>red</li>
+                    <li><i class="round" id="blue_round"></i>blue</li>
+                </ul>
+            </div>
+            <div class="palette hotkeys">
+                <p class="text">Ctrl+X - Paint backet</p>
+                <p class="text">Ctrl+I - Transform</p>
+                <p class="text">Ctrl+Q - Move</p>
+                <p class="text">Ctrl+Y - Choose color</p>
+            </div>
+            <div class="localStorage">
+                <input type="button" value="Save changes" class="inLocalStorage">
+                <input type="button" value="Download data" class="fromLocalStorage">
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </main>
+</body>
+</html>

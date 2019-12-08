@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="eyedropper" unicode="&#xe800;" d="M845 415l-16-16 81-81-80-78-80 81-415-418-208 0-109 113 0 201 418 418-83 84 78 78 83-83 16 17q65 65 158 65t157-65q66-65 66-158t-66-158z m-539-381l366 365-158 158-360-361q63-3 106-46 48-48 46-116z" horiz-adv-x="928" />
+
+<glyph glyph-name="exchange" unicode="&#xe801;" d="M911 127l-670 0 0-111-223 168 223 167 0-112 670 0 0-112z m-893 335l0 112 670 0 0 111 223-166-223-168 0 111-670 0z" horiz-adv-x="928" />
+
+<glyph glyph-name="palette" unicode="&#xe802;" d="M857 622q72-48 101-110t20-104-35-48q-16-4-54 10t-80 10-80-46q-30-46-21-75t34-65 23-50q-2-26-36-63t-126-74-216-37q-186 0-291 101t-95 245q8 118 104 235t216 151q290 84 536-80z m-318-466q30 0 52 22t22 54-22 53-52 21q-32 0-54-21t-22-53 22-54 54-22z" horiz-adv-x="980" />
+
+<glyph glyph-name="move" unicode="&#xf047;" d="M1000 350q0-14-11-25l-142-143q-11-11-26-11t-25 11-10 25v72h-215v-215h72q14 0 25-10t11-25-11-25l-143-143q-10-11-25-11t-25 11l-143 143q-11 10-11 25t11 25 25 10h72v215h-215v-72q0-14-10-25t-25-11-25 11l-143 143q-11 11-11 25t11 25l143 143q10 11 25 11t25-11 10-25v-72h215v215h-72q-14 0-25 10t-11 25 11 26l143 142q11 11 25 11t25-11l143-142q11-11 11-26t-11-25-25-10h-72v-215h215v72q0 14 10 25t25 11 26-11l142-143q11-10 11-25z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
